@@ -13,8 +13,9 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 ### Product & Operations
 
 - Silver (Erica Xu)<span class='flair mod-pop'>Team Little Silvers</span>
-- kepano ([Stephan Ango](https://stephanango.com/))
+- kepano ([Steph Ango](https://stephanango.com/))
 - ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))
+- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Support Dragon</span>
 
 ## Moderators
 
@@ -65,9 +66,9 @@ Credits to these plugin developers for pioneering functionality that were adapte
 
 The first version of the help vault was written by Silver. Later part of it was written by [@mediapathic](http://mediapathic.net), with a big help from Reggie. We also got corrections from the many pairs of eyes in the Discord and forum community.
 
-The docs are currently maintained by [Marcus Olsson](https://marcus.se.net/).
+The docs was maintained by [Marcus Olsson](https://marcus.se.net/) for a while. Currently it’s maintained by the Obsidian team.
 
-We now accept pull requests to the help vault in [our docs repo](https://github.com/obsidianmd/obsidian-docs/).
+We now accept pull requests to the help vault in [our docs repo](https://github.com/obsidianmd/obsidian-docs/). Issues are welcome.
 
 ### Add your name
 
@@ -86,6 +87,7 @@ Copyright (c) 2017-present Drifty Co.
 
 ### CodeMirror
 
+Version `6.0.0`
 MIT License
 Copyright (C) 2018 by Marijn Haverbeke <marijnh@gmail.com>, Adrian Heine <mail@adrianheine.de>, and others
 
@@ -96,6 +98,7 @@ Licensed under the [Mozilla Public License version 2.0](http://mozilla.org/MPL/2
 
 ### Electron
 
+Version `25.8.1`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -112,8 +115,9 @@ Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
 
 ### Lucide
 
+Version `0.268.0`
 ISC License
-Copyright (c) 2020, Lucide Contributors
+Copyright (c) 2020, Lucide Contributors ^lucide
 
 ### MathJax
 
@@ -126,6 +130,7 @@ Copyright (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
+Version `2.29.4`
 MIT License
 Copyright (c) JS Foundation and other contributors
 
@@ -140,6 +145,7 @@ Apache License 2.0
 
 ### PixiJS
 
+Version `7.2.4`
 MIT License
 Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 
