@@ -196,7 +196,11 @@ You can change the image dimensions, by adding `|640x480` to the link destinatio
 ![Engelbart|100x145](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 ```
 
-If you only specify the width, the image scales according to its original aspect ratio. For example, `![[Engelbart.jpg|100]]`.
+If you only specify the width, the image scales according to its original aspect ratio. For example:
+
+```md
+![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
+```
 
 > [!tip]
 > If you want to add an image from inside your vault, you can also [[Embedding files#Embed an image in a note|embed an image in a note]].
@@ -227,22 +231,6 @@ To create an ordered list, start each line with a number followed by a `.` symbo
 2. Second list item
 3. Third list item
 
-You can create a nested list by indenting one or more list items.
-
-```md
-1. First list item
-   1. Ordered nested list item
-2. Second list item
-   - Unordered nested list item
-```
-
-1. First list item
-   1. Ordered nested list item
-2. Second list item
-   - Unordered nested list item
-
-You can press `Tab` or `Shift+Tab` to indent or unindent one or more selected list items.
-
 ### Task lists
 
 To create a task list, start each list item with a hyphen and space followed by `[ ]`.
@@ -270,6 +258,39 @@ You can toggle a task in Reading view by selecting the checkbox.
 > - [?] Eggs
 > - [-] Eggs
 
+### Nesting lists
+
+All list types can be nested in Obsidian.
+
+To create a nested list, indent one or more list items:
+
+```md
+1. First list item
+   1. Ordered nested list item
+2. Second list item
+   - Unordered nested list item
+```
+
+1. First list item
+   1. Ordered nested list item
+2. Second list item
+   - Unordered nested list item
+
+Similarly, you can create a nested task list by indenting one or more list items:
+
+```md
+- [ ] Task item 1
+	- [ ] Subtask 1
+- [ ] Task item 2
+	- [ ] Subtask 1
+```
+
+- [ ] Task item 1
+	- [ ] Subtask 1
+- [ ] Task item 2
+	- [ ] Subtask 1
+
+Use `Tab` or `Shift+Tab` to indent or unindent one or more selected list items for easy organization.
 ## Horizontal bar
 
 You can use three or more stars `***`, hyphens `---`, or underscore `___` on its own line to add a horizontal bar. You can also separate symbols using spaces.

@@ -1,10 +1,15 @@
-Any files or settings that have been synced to your [[Local and remote vaults|remote vault]] count towards your [[Limitations#How large can each remote vault be|storage space]]. By default, [[Introduction to Obsidian Sync|Obsidian Sync]] ignores larger files such as audio, video, and PDFs.
+Any files or settings that have been synced to your [[Local and remote vaults|remote vault]] count towards your [[Sync limitations#How large can each remote vault be|storage space]]. By default, [[Introduction to Obsidian Sync|Obsidian Sync]] ignores larger files such as audio, video, and PDFs.
 
-**Notes:**
+**Synced files and exclusions**:
+Synced files remain in your remote vault even if you exclude them later on. If possible, configure the files and settings you want to sync before you start syncing your vault.
 
-- Synced files remain in your remote vault even if you exclude them later on. If possible, configure the files and settings you want to sync before you start syncing your vault.
-- Obsidian only applies vault settings during start-up. If you change a setting on one device, you need to restart Obsidian on your other devices for the new changes to take effect. For example, if you change the path of your daily notes in the [[Daily Notes]] plugin, you need to restart Obsidian on your other devices to use the new path.
-- ==Sync doesn't sync Sync's settings.== This allows users to configure Sync differently on each device according to their needs. This means, however, that you must configure custom Sync settings on each device.
+==**Sync doesn't sync Sync's settings**==:
+This allows users to configure Sync differently on each device according to their needs. This means, however, that you must configure custom Sync settings on each device.
+
+> [!warning] Sync settings and application restarts
+> Obsidian **only** applies vault settings during start-up. If you change a setting on one device, you **need to restart** Obsidian on your other devices for the new changes to take effect. 
+> 
+> For example, if you change the path of your daily notes in the [[Daily Notes]] plugin, you need to restart Obsidian on your other devices to use the new path.
 
 ## Sync vault
 
@@ -32,9 +37,10 @@ By default, Obsidian syncs all files and folders in your vault. If you don't wan
 
 ## Create a settings profile
 
-Obsidian Sync can sync multiple settings folders to the same remote vault. You can use this to create different profiles, for example one for mobile devices and another for your laptop.
+Obsidian Sync can sync multiple [[Config folders|config folders]] to the same remote vault. You can use this to create different profiles, for example one for mobile devices and another for your laptop.
 
 To set your settings folder:
 
 1. Open **Settings → About**.
 2. In **Override config folder**, type the name of your profile, starting with a period (`.`). For example, `.obsidian-mobile`.
+3. Relaunch Obsidian to have the changes take effect. 
